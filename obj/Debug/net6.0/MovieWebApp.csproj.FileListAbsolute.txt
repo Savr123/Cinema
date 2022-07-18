@@ -248,7 +248,6 @@ D:\Repositories\MovieWebApp\obj\Debug\net6.0\MovieWebApp.GeneratedMSBuildEditorC
 D:\Repositories\MovieWebApp\obj\Debug\net6.0\MovieWebApp.AssemblyInfoInputs.cache
 D:\Repositories\MovieWebApp\obj\Debug\net6.0\MovieWebApp.AssemblyInfo.cs
 D:\Repositories\MovieWebApp\obj\Debug\net6.0\MovieWebApp.csproj.CoreCompileInputs.cache
-D:\Repositories\MovieWebApp\obj\Debug\net6.0\MovieWebApp.MvcApplicationPartsAssemblyInfo.cache
 D:\Repositories\MovieWebApp\obj\Debug\net6.0\MovieWebApp.RazorAssemblyInfo.cache
 D:\Repositories\MovieWebApp\obj\Debug\net6.0\MovieWebApp.RazorAssemblyInfo.cs
 D:\Repositories\MovieWebApp\obj\Debug\net6.0\staticwebassets.build.json
@@ -261,3 +260,13 @@ D:\Repositories\MovieWebApp\obj\Debug\net6.0\MovieWebApp.dll
 D:\Repositories\MovieWebApp\obj\Debug\net6.0\ref\MovieWebApp.dll
 D:\Repositories\MovieWebApp\obj\Debug\net6.0\MovieWebApp.pdb
 D:\Repositories\MovieWebApp\obj\Debug\net6.0\MovieWebApp.genruntimeconfig.cache
+D:\Repositories\MovieWebApp\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\Repositories\MovieWebApp\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Repositories\MovieWebApp\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Repositories\MovieWebApp\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Repositories\MovieWebApp\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+D:\Repositories\MovieWebApp\bin\Debug\net6.0\Scrutor.dll
+D:\Repositories\MovieWebApp\bin\Debug\net6.0\Swashbuckle.AspNetCore.Filters.dll
+D:\Repositories\MovieWebApp\bin\Debug\net6.0\Swashbuckle.AspNetCore.Filters.Abstractions.dll
+D:\Repositories\MovieWebApp\obj\Debug\net6.0\MovieWebApp.MvcApplicationPartsAssemblyInfo.cs
+D:\Repositories\MovieWebApp\obj\Debug\net6.0\MovieWebApp.MvcApplicationPartsAssemblyInfo.cache

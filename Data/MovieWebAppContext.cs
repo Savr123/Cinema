@@ -10,12 +10,14 @@ namespace MovieWebApp.Data
 {
     public class MovieWebAppContext : DbContext
     {
+
+
         public MovieWebAppContext (DbContextOptions<MovieWebAppContext> options)
             : base(options)
         {
         }
 
         public DbSet<MovieWebApp.Models.User> Users { get; set; }
-        public DbSet<MovieWebApp.Models.Movie> Movie { get; set; }
+        public DbSet<MovieWebApp.Models.Movie> Movies { get; set; }
     }
 }

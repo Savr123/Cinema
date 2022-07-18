@@ -1,4 +1,6 @@
-﻿<!DOCTYPE html>
+﻿@model IEnumerable<MovieWebApp.Models.User>
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
@@ -29,6 +31,7 @@
                             <a class="nav-link text-dark" asp-area="" asp-controller="Movies" asp-action="Index">Movies</a>
                         </li>
                     </ul>
+                    <!--<div class="my-2 my-lg-1 "> Hello @Html.DisplayNameFor(model => model.name)</div> -->
                 </div>
             </div>
         </nav>

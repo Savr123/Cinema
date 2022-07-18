@@ -56,7 +56,7 @@ namespace MovieWebApp.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("id"), 1L, 1);
 
-                    b.Property<DateTime>("Brithday")
+                    b.Property<DateTime>("birthday")
                         .HasColumnType("datetime2");
 
                     b.Property<string>("email")
@@ -68,8 +68,11 @@ namespace MovieWebApp.Migrations
                     b.Property<string>("name")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("password")
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<byte[]>("password")
+                        .HasColumnType("varbinary(max)");
+
+                    b.Property<byte[]>("passwordSalt")
+                        .HasColumnType("varbinary(max)");
 
                     b.HasKey("id");
 
