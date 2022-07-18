@@ -1,0 +1,32 @@
+﻿@model MovieWebApp.Models.User
+
+@{
+    ViewData["Title"] = "Login";
+}
+<div class="row">
+    <div class="col-md-4">
+        <section>
+            <form method="post" asp-action="Login">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="form-group">
+                    <label asp-for="email" class="control-label"></label>
+                    <input asp-for="email" class="form-control" type = "email" placeholder = "Введите email" />
+                </div>
+                <div class="form-group">
+                    <label asp-for="password" class="control-label"></label>
+                    <input asp-for="password" class="form-control" type = "password" placeholder = "Введите пароль" />
+                    <span asp-validation-for="password" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <hr />
+                    <input type="submit" value="Войти" class="btn btn-primary"/>
+                </div>
+            </form>
+        </section>
+    </div>
+</div>
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
